@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Theather;
+    src: url(fonts/Broadway.ttf);
+}
+
+@font-face {
+    font-family: Showtime;
+    src: url(fonts/Showtime.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(77, 77, 77);
+}
+
+header {
+    position: fixed;
+    background: rgb(42, 42, 42);
+    width: 100%;
+    z-index: 2;
+}
+
+header img {
+    width: 3rem;
+    margin: 1%;
+    margin-bottom: 0%;
+}
+
+header ul li {
+    float: right;
+    color: #fff;
+    font-family: Theather;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: -23px;
+    margin: 0 2%;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+header ul li:hover {
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(42, 42, 42);
+}
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(images/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.brand {
+    z-index: 1;
+    color: #fff;
+    font-family: Theather;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-left: 5%;
+    position: relative;
+    top: 70%;
+    border-left: 3px #fff solid;
+    padding-left: 20px;
+    animation: brand 5s forwards;
+}
+
+@keyframes brand {
+    0% {
+        opacity: 0%;
+        margin-left: 0;
+    }
+
+    50% {
+        opacity: 100%;
+        margin-left: 5%;
+    }
+}
+
+.news {
+    background: rgb(255, 77, 77);
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+.news marquee {
+    margin: 1%;
+    font-family: Theather;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.news-main{
+    width: 170px;
+    padding: 1%;
+    background: rgb(201, 55, 55);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+    color: #fff;
+    font-family: Theather;
+    text-align: center;
+    font-size: 40px;
+}
+
+.divider {
+    background: rgb(42, 42, 42);
+    width: 100%;
+    Height: 5px;
+}
+
+.pointer {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+    background: #fff;
+    width: 5%;
+}
+
+.link {
+    width: 100%;
+    display: flex;
+    background: rgb(42, 42, 42);
+}
+
+.link button {
+    margin: 1% 2%;
+    position: relative;
+    left: 25%;
+    font-family: Theather;
+    background: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border: 0px;
+    font-size: 25px;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.link a:hover {
+    color:rgb(42, 42, 42);
+}
+
+.point:hover {
+    background: #fff;
+    color:rgb(42, 42, 42);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tickets:hover {
+    background: rgb(227, 194, 46);
+    color:rgb(42, 42, 42);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(43, 43, 43, 0.5)
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 216, 41);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(227, 194, 46);
+}
