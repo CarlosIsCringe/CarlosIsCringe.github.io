@@ -49,3 +49,36 @@ header ul li:hover {
     border-radius: 5px;
     color: rgb(42, 42, 42);
 }
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(images/Background.png);
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+
+.brand {
+    z-index: 1;
+    color: #fff;
+    font-family: Theather;
+    letter-spacing: 20px;
+    font-size: 30px;
+    margin-left: 5%;
+    position: relative;
+    top: 70%;
+    border-left: 3px #fff solid;
+    padding-left: 20px;
+    animation: brand 5s forwards;
+}
+
+@keyframes brand {
+    0% {
+        opacity: 0%;
+        margin-left: 0;
+    }
+
+    50% {
+        opacity: 100%;
+        margin-left: 5%;
+    }
+}
