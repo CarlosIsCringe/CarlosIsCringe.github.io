@@ -171,7 +171,7 @@ header ul li:hover {
     display: flex;
     color: rgb(42, 42, 42);
     font-family: theather;
-    height: 100vh;
+    height: 80vh;
     letter-spacing: 5px;
 }
 
@@ -190,11 +190,11 @@ header ul li:hover {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .cal-list {
-    height: 100vh;
+    height: 80vh;
     width: 50%;
     background: rgb(255, 77, 77, 0.5);
     float: right;

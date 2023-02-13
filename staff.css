@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Theather;
+    src: url(fonts/Broadway.ttf);
+}
+
+@font-face {
+    font-family: Showtime;
+    src: url(fonts/Showtime.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(42, 42, 42);
+}
+
+header {
+    position: fixed;
+    background: rgb(42, 42, 42);
+    width: 100%;
+    z-index: 2;
+}
+
+header img {
+    width: 3rem;
+    margin: 1%;
+    margin-bottom: 0%;
+}
+
+header ul li {
+    float: right;
+    color: #fff;
+    font-family: Theather;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: -23px;
+    margin: 0 2%;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+header ul li:hover {
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(42, 42, 42);
+}
