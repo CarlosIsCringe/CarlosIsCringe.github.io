@@ -154,6 +154,7 @@ header ul li:hover {
     color:rgb(42, 42, 42);
     padding: 5px;
     border-radius: 5px;
+    height: 40px;
 }
 
 .tickets:hover {
@@ -167,8 +168,6 @@ header ul li:hover {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(images/Theather.png);
     background-position: center;
     background-size: cover;
-    width: 100%;
-    display: flex;
     color: rgb(42, 42, 42);
     font-family: theather;
     height: 80vh;
@@ -176,13 +175,14 @@ header ul li:hover {
 }
 
 .Ticket-back{
-    margin: 1%;
-    padding: 1%;
+    padding: 2%;
     background: rgb(255, 216, 41);
-    height: 5vh;
-    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     position: relative;
-    left: 38%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .calendar {
@@ -190,53 +190,33 @@ header ul li:hover {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    text-align: center;
+    min-height: 80vh;
 }
 
 .cal-list {
-    height: 80vh;
-    width: 50%;
-    background: rgb(255, 77, 77, 0.5);
-    float: right;
-    border-left: 3px solid rgb(201, 55, 55);
-}
-
-.cal-list-title {
-    border-bottom: 3px solid #fff;
-}
-
-.cal-list h1{
-    text-align: center;
+    padding: 2%;
     color: #fff;
-    margin: 5%;
     font-family: Theather;
     letter-spacing: 5px;
+    background-color: rgb(255, 77, 77);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.cal-list h2{
-    text-align: center;
+.cal-list-performance {
+    background: linear-gradient(rgb(0,0,0,0.5), rgb(0,0,0,0.5));
+    margin: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: #fff;
-    margin: 5%;
     font-family: Theather;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    border-left: 5px solid #fff;
+    padding: 1%;
 }
-
-.cal-list-one {
-    margin-bottom: 5%;
-}
-
-.cal-list-one h1 {
-    margin: 0%;
-    margin-left: 3%;
-    text-align: center;
-}
-
-.cal-list-one h2 {
-    margin: 0%;
-    margin-left: 3%;
-    text-align: center;
-}
-
 
 ::-webkit-scrollbar {
     width: .5em;
