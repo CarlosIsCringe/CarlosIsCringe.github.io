@@ -49,3 +49,142 @@ header ul li:hover {
     border-radius: 5px;
     color: rgb(42, 42, 42);
 }
+
+.banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(images/cast.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.login {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 77, 77);
+    padding: 2%;
+    width: 215px;
+    border-radius: 10px;
+}
+
+.password {
+    border: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    border-left: 2px solid #fff;
+    color:rgb(255, 255, 255);
+    font-family: Theather;
+    letter-spacing: 2px;
+    padding: 2%;
+    width: 180px;
+    height: 30px;
+    transition: 0.5s;
+    position: relative;
+    left: 10px;
+}
+
+.password:focus {
+    outline: none;
+    border-bottom: 1px solid #fff;
+    padding: 3%;
+}
+
+.submit {
+    border: 0px;
+    border-left: 2px solid #fff;
+    padding: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    font-family: Theather;
+    margin: 5%;
+    position: relative;
+    left: 59px;
+    cursor: pointer;
+}
+
+.login h2 {
+    font-family: Theather;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    position: relative;
+    left: 9px;
+}
+
+.Cast {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(images/castlist.png);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: theather;
+    height: 100vh;
+    letter-spacing: 5px;
+}
+
+.Cast-back{
+    padding: 2%;
+    background: rgb(255, 77, 77);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.news {
+    background: rgb(255, 77, 77);
+    width: 100%;
+    color: #fff;
+    display: flex;
+}
+
+.news marquee {
+    margin: 1%;
+    font-family: Theather;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.news-main{
+    width: 170px;
+    padding: 1%;
+    background: rgb(201, 55, 55);
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+    color: #fff;
+    font-family: Theather;
+    text-align: center;
+    font-size: 40px;
+}
+
+.divider {
+    background: rgb(42, 42, 42);
+    width: 100%;
+    Height: 5px;
+}
+
+.pointer {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0 100%);
+    background: #fff;
+    color: #fff;
+    width: 5%;
+}
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(43, 43, 43, 0.5)
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 216, 41);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(227, 194, 46);
+}
